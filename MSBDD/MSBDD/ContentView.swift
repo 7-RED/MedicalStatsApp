@@ -14,8 +14,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
-            
-            TextField("Enter taask", text: $taskName)
+            TextField("Enter task", text: $taskName)
                 .accessibility(identifier: "taskNameTextField")
             
             Button("Add"){

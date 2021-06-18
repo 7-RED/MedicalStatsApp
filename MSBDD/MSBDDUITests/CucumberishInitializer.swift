@@ -41,7 +41,6 @@ class CucumberishInitializer: NSObject{
                 
             }
             
-            
         })
         
         let bundle = Bundle(for: CucumberishInitializer.self)
